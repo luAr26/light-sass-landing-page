@@ -8,7 +8,7 @@ import Link from "next/link";
 
 export const Header = () => {
   return (
-    <header className="sticky top-0">
+    <header className="sticky top-0 z-20 backdrop-blur-sm">
       <div className="flex items-center justify-center bg-black py-3 text-sm text-white md:gap-3">
         <p className="hidden text-white/60 md:block">
           Streamline your workflow and boost your productivity
@@ -29,9 +29,7 @@ export const Header = () => {
               <Link href="/">Customers</Link>
               <Link href="/">Updates</Link>
               <Link href="/">Help</Link>
-              <button className="inline-flex items-center justify-center rounded-lg bg-black px-4 py-2 font-medium tracking-tight text-white">
-                Get for free
-              </button>
+              <button className="btn btn-primary">Get for free</button>
             </nav>
           </div>
         </div>
