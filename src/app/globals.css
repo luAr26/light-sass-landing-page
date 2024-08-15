@@ -22,4 +22,8 @@
   .tag {
     @apply inline-flex rounded-lg border border-[#222]/10 px-3 py-1 text-sm tracking-tight;
   }
+
+  .section-title {
+    @apply bg-gradient-to-b from-black to-[#001e80] bg-clip-text text-center text-3xl font-bold tracking-tighter text-transparent md:text-[54px] md:leading-[60px];
+  }
 }

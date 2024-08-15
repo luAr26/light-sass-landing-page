@@ -11,7 +11,7 @@ export const ProductShowcase = () => {
           <div className="flex justify-center">
             <div className="tag">Boost productivity</div>
           </div>
-          <h2 className="mt-5 bg-gradient-to-b from-black to-[#001e80] bg-clip-text text-center text-3xl font-bold tracking-tighter text-transparent md:text-[54px] md:leading-[60px]">
+          <h2 className="section-title mt-5">
             A more effective way to track progress
           </h2>
           <p className="mt-5 text-center text-[22px] leading-[30px] tracking-tight text-[#010d3e]">
