@@ -26,4 +26,12 @@
   .section-title {
     @apply bg-gradient-to-b from-black to-[#001e80] bg-clip-text text-center text-3xl font-bold tracking-tighter text-transparent md:text-[54px] md:leading-[60px];
   }
+
+  .section-description {
+    @apply text-center text-[22px] leading-[30px] tracking-tight text-[#010d3e];
+  }
+
+  .section-heading {
+    @apply mx-auto max-w-[540px];
+  }
 }
