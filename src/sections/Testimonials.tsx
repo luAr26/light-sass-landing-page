@@ -1,3 +1,4 @@
+"use client";
 import avatar1 from "@/assets/avatar-1.png";
 import avatar2 from "@/assets/avatar-2.png";
 import avatar3 from "@/assets/avatar-3.png";
@@ -7,7 +8,6 @@ import avatar6 from "@/assets/avatar-6.png";
 import avatar7 from "@/assets/avatar-7.png";
 import avatar8 from "@/assets/avatar-8.png";
 import avatar9 from "@/assets/avatar-9.png";
-import Image from "next/image";
 import TestimonialsColumn from "@/components/TestimonialsColumn";
 
 const testimonials = [
@@ -85,15 +85,17 @@ export const Testimonials = () => {
             essential tool for users around the world.
           </p>
         </div>
-        <div className="flex justify-center gap-6">
-          <TestimonialsColumn columnData={firstColumn} />
+        <div className="mt-10 flex max-h-[738px] justify-center gap-6 overflow-hidden [mask-image:linear-gradient(to_bottom,transparent,black_25%,black_75%,transparent)]">
+          <TestimonialsColumn columnData={firstColumn} duration={15} />
           <TestimonialsColumn
             columnData={secondColumn}
-            className="hidden md:flex"
+            className="hidden md:block"
+            duration={19}
           />
           <TestimonialsColumn
             columnData={thirdColumn}
-            className="hidden lg:flex"
+            className="hidden lg:block"
+            duration={17}
           />
         </div>
       </div>
