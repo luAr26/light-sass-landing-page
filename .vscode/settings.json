@@ -6,5 +6,6 @@
     "Insta",
     "logosaas",
     "svgr"
-  ]
+  ],
+  "svg.preview.background": "editor"
 }
